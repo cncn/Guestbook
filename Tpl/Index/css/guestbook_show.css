@@ -1,0 +1,92 @@
+﻿
+.frameContentList{
+	padding:20px;
+}
+.frameContentDetail{
+	padding:20px 30px;
+}
+.frameContentShow{
+	width:978px;
+	border:1px #C2D1E0 solid;
+	margin:0 auto;
+	clear:both;	
+	margin-top:10px;
+	background:#fff;
+}
+.frameWrapAutiContent{
+	width:980px;
+	margin:0 auto;
+	display:block;
+	height:20px;
+	background:url("images/bg_frame_wrapauti_content.png") no-repeat 0 -9px;
+}
+
+
+.listMessage{
+	clear:both;
+}
+.listMessageItem{
+	border:1px #C2D1E0 solid;
+	clear:boht;
+	margin-bottom:15px;
+}
+.listMessageItemTit{
+	height:24px;
+	line-height:24px;
+	background:#E4EbF1;	
+	cursor:pointer;
+}
+.listMessageItemTit ul{
+ 	padding:0 10px;                      
+}    
+.listMessageItemTit li{
+	float:left;	
+}
+.listMessageItemTit li.t{
+	font-weight:bold;
+	font-size:14px;
+	background:url("../images/icon-arrow-1.gif") no-repeat 0 8px;
+	padding-left:10px;
+}
+.listMessageItemTit li.time{
+	float:right;
+	color:#999;
+}
+.listMessageItemContent{
+	padding:20px;	
+	background:#FFF;
+}
+.listMessageItemContentQ{
+	clear:both;
+	line-height:180%;
+	position:relative;
+	margin-left:0px;
+}
+.listMessageItemContentQ span.qus{
+	position:absolute;
+	top:0px;
+	left:-40px;
+	width:30px;
+	height:30px;
+}
+.listMessageItemContentA{
+	clear:both;
+	line-height:180%;
+	color:#090;
+	position:relative;
+	margin-left:0px;
+	min-height:20px;
+}
+.listMessageItemContentA span.anw{
+	position:absolute;
+	top:0px;
+	left:-40px;
+	width:30px;
+	height:30px;
+}
+.listMessageItemContentLine{
+	display:block;
+	height:16px;
+	border-bottom:1px #CCC dotted;
+	margin-bottom:8px;
+}
